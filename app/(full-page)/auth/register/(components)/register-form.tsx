@@ -33,6 +33,7 @@ export default function RegisterForm() {
                 </label>
                 <InputText name='email' id="email" type="text" placeholder="Email address" className="w-full md:w-30rem mb-3" style={{ padding: '1rem' }} />
                 <ErrorMessage message={errorMessage?.email} />
+                <ErrorMessage message={errorMessage?.AuthError} />
 
                 <label htmlFor="password" className="block text-900 font-medium text-xl mb-2">
                     Password
